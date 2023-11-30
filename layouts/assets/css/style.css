@@ -1,0 +1,119 @@
+body {
+    font-family: 'TIMES NEW ROMAN', Times, serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+aside {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #baeeed;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.brand {
+    width: 100px;
+}
+
+.user {
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+main {
+    margin-left: 210px;
+}
+
+article {
+    width: 75%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    padding: 10px 20px;
+    margin: 5px 0 5px 0;
+    display: block;
+    color: #000000;
+}
+
+nav a:hover {
+    background-color: #baeeed;
+}
+
+nav .icon {
+    width: 25px;
+    float: left;
+    padding-right: 10px;
+}
+
+.info {
+    background-color: #baeeed;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+table {
+    margin-top: 20px !important;
+    border: 1px solid #000000;
+    border-collapse: collapse;
+    width: 110%; /* Mengatur lebar tabel menjadi 100% dari kontainer induknya */
+}
+
+table th, table td {
+    border: 1px solid #000000;
+    padding: 12px; /* Menambahkan ruang di dalam sel */
+    text-align: left;
+}
+
+table th {
+    background-color: #AEDEFC;
+}
+
+.btn {
+    background-color: #AEDEFC;
+    border-radius: 4px;
+    color: #ffffff;
+    padding: 5px;
+}
+
+.btn:hover {
+    background-color: #AEDEFC;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    padding: 20px 0 20px 10px;
+    background-color: #f5f7fa;
+    width: 100%;
+    border-top: 1px solid #d8dadf;
+}
+
+.logo-container img {
+    max-width: 50px; 
+    height: auto;
+    margin-bottom: 20px;
+}
+
+
+/* DataTables Custom Style */
+
+div.dataTables_filter,
+div.dataTables_length {
+    padding: 20px 0 10px 0;
+}
